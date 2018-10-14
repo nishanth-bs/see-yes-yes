@@ -1,0 +1,15 @@
+{
+  "name": "menu-hover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "moving-underline": "node-sass ./moving-underline/menu-hover.scss ./moving-underline/menu-hover.css",
+    "rotating-box":"node-sass ./rotating-box/menu.scss ./rotating-box/menu.css -w"
+  },
+  "author": "Nishanth BS",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
